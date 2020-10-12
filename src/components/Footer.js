@@ -11,8 +11,8 @@ alert(message.data)
 
 console.log('ederrr')
 
-
-
+{<h1> Hello world </h1>}
+ 
 export default function Footer() {
   return (
     <footer id="footer">
