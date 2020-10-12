@@ -2,6 +2,16 @@ import React from 'react';
 import config from '../../config';
 
 console.log('eder')
+
+// Assign handler to message event
+if ( window.addEventListener ) {
+  window.addEventListener('message', handleMessage, false);
+} else if ( window.attachEvent ) { // ie8
+  window.attachEvent('onmessage', handleMessage);
+}
+
+
+
 export default function Footer() {
   return (
     <footer id="footer">
