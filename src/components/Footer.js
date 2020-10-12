@@ -21,7 +21,7 @@ export default function Footer() {
         <li>&copy; The Atelier </li>
         <li>
           <p> Let's make it happen</p>
-          <p>  {console.log('eder')} </p>
+          <p>  {console.log('ederr')} </p>
           {/* Credits: <a href="http://unsplash.com/">Unsplash</a> +
           <a href="http://html5up.net">HTML5 UP</a> */}
         </li>
