@@ -3,6 +3,15 @@ import config from '../../config';
 
 
 
+console.log('ederrr')
+          
+window.addEventListener('message', function(message){
+alert(message.data)
+
+
+console.log('ederrr')
+
+
 
 export default function Footer() {
   return (
