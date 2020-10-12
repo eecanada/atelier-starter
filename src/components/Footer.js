@@ -2,16 +2,12 @@ import React from 'react';
 import config from '../../config';
 
 
-
-console.log('ederrr')
           
-window.addEventListener('message', function(message){
-alert(message.data)
 
 
-console.log('ederrr')
 
-{<h1> Hello world </h1>}
+
+
  
 export default function Footer() {
   return (
@@ -28,6 +24,13 @@ export default function Footer() {
           );
         })}
       </ul>
+
+      {
+
+
+
+
+      }
       <ul className="copyright">
         <li>&copy; The Atelier </li>
         <li>
@@ -39,3 +42,5 @@ export default function Footer() {
     </footer>
   );
 }
+
+
