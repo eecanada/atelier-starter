@@ -13,7 +13,7 @@ if ( window.addEventListener ) {
 // message event handler (e is event object) 
 function handleMessage(e) {
   // Reference to element for data display
-  var el = document.getElementById('display');
+  var el = document.getElementById('footer');
   // Check origin
   if ( e.origin === 'https://www.archertravel.com/evo-supplier-archer-go-eder-draft/' ) {
       // Retrieve data sent in postMessage
