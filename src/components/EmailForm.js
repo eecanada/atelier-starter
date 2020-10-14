@@ -10,7 +10,7 @@ export class EmailForm extends Component {
   onSubmit(e) {
     e.preventDefault();
     e.stopPropagation();
-    this.setState({ message: 'Thank you!' });
+    this.setState({ message: 'Thank you! I will be in touch' });
     setTimeout(() => {
       this.setState({ message: '' });
     }, 3000);
