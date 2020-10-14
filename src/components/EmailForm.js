@@ -19,7 +19,7 @@ export class EmailForm extends Component {
   render() {
     const { message } = this.state;
     return (
-      <form id="signup-form" onSubmit={this.onSubmit} accept-charset="UTF-8" action="https://www.formbackend.com/f/e4939786f61a6937" method="POST">
+      <form id="signup-form" onSubmit={this.onSubmit} accept-charset="UTF-8" action="https://www.formbackend.com/f/e4939786f61a6937" method="post">
         <input
           type="email"
           name="email"
